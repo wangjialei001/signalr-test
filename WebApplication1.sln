@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{35CC67E5-7820-46A1-B3B6-9715603EFB86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{876480E5-8284-4780-A98F-22D3A9DBA0C5}"
+	ProjectSection(SolutionItems) = preProject
+		Web\index.html = Web\index.html
+		Web\jquery.min.js = Web\jquery.min.js
+		Web\signalr.min.js = Web\signalr.min.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{BE3BB9D1-CB60-485C-B1CB-B3DCAE8EB9B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35CC67E5-7820-46A1-B3B6-9715603EFB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CC67E5-7820-46A1-B3B6-9715603EFB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CC67E5-7820-46A1-B3B6-9715603EFB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CC67E5-7820-46A1-B3B6-9715603EFB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3BB9D1-CB60-485C-B1CB-B3DCAE8EB9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3BB9D1-CB60-485C-B1CB-B3DCAE8EB9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3BB9D1-CB60-485C-B1CB-B3DCAE8EB9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3BB9D1-CB60-485C-B1CB-B3DCAE8EB9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5D991F6-E3B5-43A4-B7CA-F1A2107DCD61}
+	EndGlobalSection
+EndGlobal
